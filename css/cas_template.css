@@ -1,0 +1,59 @@
+/* configurações gerais */
+:root{
+    --background-color: #11735c;
+    --color: white;
+    --padding: 5px 10px;
+    --margin: 10px;
+    --border-radius: 3px;
+    --justify-content: center;
+    --text-align: center;
+    --display: flex;
+
+}
+/* botões */
+.botao {
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+    vertical-align: middle;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0.50rem 0.75rem;
+    font-size: 1rem;
+    background: gray;
+    border-radius: 0.15rem;
+}
+.botao:hover{
+    opacity: 0.8;
+}
+.botao-sucesso {
+    color: white;
+    background-color: #0dbf2b;
+    border-color: #0dbf2b;
+}
+.botao-primario {
+    color: white;
+    background-color: #146ee3;
+    border-color: #146ee3;
+}
+.botao-erro {
+    color: white;
+    background-color: #c21111;
+    border-color: #c21111;
+}
+.botao-atencao {
+    color: black;
+    background-color: #f1f52a;
+    border-color: #f1f52a;
+}
+.botao-info {
+    color: white;
+    background-color: #0dadbf;
+    border-color: #0dadbf;
+}
