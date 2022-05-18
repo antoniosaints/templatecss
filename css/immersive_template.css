@@ -1,0 +1,112 @@
+/* configurações gerais */
+:root{
+    --background-color: #11735c;
+    --fundo-botao: #8b8c8c;
+    --cor-escura: black;
+    --cor-clara: white;
+    --cinza-claro: #e6f2ef;
+    --padding: 5px 10px;
+    --margin: 10px;
+    --border-radius: 3px;
+    --justify-content: center;
+    --text-align: center;
+    --display: flex;
+    --cor-principal: #11735c;
+    --sucesso: #08c912;
+    --primario: #0462db;
+    --atencao: #e1e807;
+    --info: #07d5e8;
+    --erro: #e8070e;
+}
+/* botões */
+.botao {
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+    vertical-align: middle;
+    color: var(--cor-clara);
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0.50rem 0.75rem;
+    font-size: 1rem;
+    background: var(--fundo-botao);
+    border-radius: 0.15rem;
+}
+.botao:hover{
+    opacity: 0.8;
+}
+.botao-sucesso {
+    color: var(--cor-clara);
+    background-color: var(--sucesso);
+    border-color: var(--sucesso);
+}
+.botao-primario {
+    color: var(--cor-clara);
+    background-color: var(--primario);
+    border-color: var(--primario);
+}
+.botao-erro {
+    color: var(--cor-clara);
+    background-color: var(--erro);
+    border-color: var(--erro);
+}
+.botao-atencao {
+    color: var(--cor-escura);
+    background-color: var(--atencao);
+    border-color: var(--atencao);
+}
+.botao-info {
+    color: var(--cor-clara);
+    background-color: var(--info);
+    border-color: var(--info);
+}
+.botao-claro {
+    color: var(--primario);
+    background-color: #d8e2e3;
+    border-color: #d8e2e3;
+}
+
+/* distintivos SPAN*/
+
+.destaque {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 90%;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+}
+.destaque-escuro {
+    background-color: var(--cor-escura);
+    color: var(--cor-clara);
+}
+.destaque-claro {
+    background-color: var(--cinza-claro);
+    color: var(--cor-escura);
+}
+.destaque-sucesso {
+    background-color: var(--sucesso);
+    color: var(--cor-clara);
+}
+.destaque-info {
+    background-color: var(--info);
+    color: var(--cor-clara);
+}
+.destaque-primario {
+    background-color: var(--primario);
+    color: var(--cor-clara);
+}
+.destaque-erro {
+    background-color: var(--erro);
+    color: var(--cor-clara);
+}
+.destaque-atencao {
+    background-color: var(--atencao);
+    color: var(--cor-escura);
+}

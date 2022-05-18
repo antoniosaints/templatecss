@@ -1,0 +1,43 @@
+/* fontes */
+@font-face {
+    font-family: Poppins;
+    src: url("../fontes/poppins/Poppins-Medium.ttf");
+    /* src: url("../fontes/spring/Spring\ in\ May.ttf"); */
+    /* src: url("../fontes/mosthat/Mosthat.otf"); */
+    /* src: url("../fontes/origicide/Origicide.ttf"); */
+    /* src: url("../fontes/cooper/Copper\ Penny\ DTP.ttf"); */
+}
+/* configurações gerais corpo do documento*/
+* {
+    font-family: Poppins, arial;
+    font-size: small;
+}
+
+body {
+    background-color: #23875c;
+}
+.titulos {
+    font-size: 20px;
+    color: white;
+}
+.main-section-body{
+    background-color: white;
+    border-radius: 3px ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.container .container-content{
+    padding: 5px;
+}
+.container .titulo-container h1 {
+    font-size: 16px;
+}
